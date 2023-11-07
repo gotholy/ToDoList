@@ -47,8 +47,8 @@ export default function Task({ task, done, onComplete, onRemove, onEdit }) {
         </div>
       )}
       {done && (
-        <div className="bg-sky-100 text-center rounded-full text-blue-500 flex justify-center items-center p-1">
-          <span className="text-blue-500 font-bold material-symbols-outlined">
+        <div className="bg-sky-100 text-center rounded-full text-teal-900 flex justify-center items-center p-1">
+          <span className="text-teal-900 font-bold material-symbols-outlined">
             done
           </span>
         </div>
