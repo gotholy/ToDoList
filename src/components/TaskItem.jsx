@@ -3,9 +3,9 @@ import TaskButton from "./TaskButton";
 
 export default function Task({ task, done, onComplete, onRemove, onEdit }) {
   const defaultClasses =
-    "bg-sky-100 rounded flex justify-between items-center gap-2 p-3 group hover:cursor-pointer hover:bg-slate-100 transition text-blue-500";
+    "bg-sky-100 rounded flex justify-between items-center gap-2 p-3 group hover:cursor-pointer hover:bg-slate-100 transition text-teal-700";
   const doneClasses =
-    "flex justify-between items-center p-3 gap-2 rounded bg-blue-500 text-white";
+    "flex justify-between items-center p-3 gap-2 rounded bg-teal-800 text-white";
   const [editing, setEditing] = useState(false);
   const [editedTask, setEditedTask] = useState(task.task);
 

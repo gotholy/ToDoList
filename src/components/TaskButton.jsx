@@ -4,7 +4,7 @@ export default function TaskButton({ type, onClick }) {
   return (
     <button
       type="button"
-      className="p-1 bg-sky-200 rounded-full flex justify-center items-center transition hover:text-white hover:bg-sky-500 hover:scale-125 text-blue-500"
+      className="py-2 px-3 bg-teal-400 rounded-full flex justify-center items-center transition hover:text-teal-500 hover:bg-teal-200 hover:scale-125 text-white"
       onClick={onClick}
     >
       {type === "done" ? (
